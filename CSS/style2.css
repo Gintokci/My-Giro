@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 1920px;
+}
+header{
+    display: flex;
+}
+header button{
+    margin-top: 13px;
+    background-color: #FFA019;
+    border: #FFA019;
+    border-radius: 10px;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 13px;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    text-align: center;
+    height: 30px;
+    margin-left: 20px;
+}
+menu{
+    
+   margin-left: 407px;
+   margin-right: 407px;
+  
+}
+menu h2{
+    text-align: center;
+    align-items: center;
+}
+.nomer{
+    margin-top: 50px;
+    margin-left: 450px;
+}
+.email{
+    margin-top: 10px;
+    margin-left: 450px;
+}
+menu button{
+    margin-top: 10px;
+    margin-left: 490px;
+    background-color: #FFA019;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 10px;
+    border-color: #FFA019;
+    cursor: pointer;
+}
+@media (max-width:960px){
+    menu{
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+    .nomer{
+        margin-left: 200px;
+    }
+    .email{
+        margin-left: 200px;
+    }
+    menu button{
+        margin-left: 240px;
+    }
+}

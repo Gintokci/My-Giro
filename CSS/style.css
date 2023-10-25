@@ -28,7 +28,9 @@ header button {
     align-items: flex-start;
     margin-bottom: 20px;
     text-align: center;
+    height: 30px;
 }
+
 
 header p {
     margin-top: 19px;
@@ -70,7 +72,7 @@ a {
 
 }
 
-#menu a {}
+
 
 .glav {
     justify-content: center;
@@ -749,9 +751,6 @@ input::placeholder {
         flex-wrap: wrap;
         margin-top: 40px;
         margin-bottom: 40px;
-    }
-    #sigvey-white{
-        
     }
     #giro{
         margin-left: 40px;
